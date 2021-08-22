@@ -11,7 +11,7 @@ function testFunc() {
     { year: "2016", result: "N/A" }
   ];
   
-  function superbowlWin(objectsArray) {lea
+  function superbowlWin(objectsArray) {
     let win = objectsArray.find(obj => {
       return obj.result === "W";
     });
